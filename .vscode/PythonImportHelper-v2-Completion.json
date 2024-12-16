@@ -57,6 +57,22 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -226,6 +242,62 @@
         "documentation": {}
     },
     {
+        "label": "Customer",
+        "importPath": "customers.models",
+        "description": "customers.models",
+        "isExtraImport": true,
+        "detail": "customers.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "orders.models",
+        "description": "orders.models",
+        "isExtraImport": true,
+        "detail": "orders.models",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -347,7 +419,7 @@
         "kind": 5,
         "importPath": "R4C.settings",
         "description": "R4C.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "peekOfCode": "LANGUAGE_CODE = 'ru-RU'\nTIME_ZONE = 'Europe/Moscow'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
         "detail": "R4C.settings",
         "documentation": {}
     },
@@ -356,7 +428,7 @@
         "kind": 5,
         "importPath": "R4C.settings",
         "description": "R4C.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "peekOfCode": "TIME_ZONE = 'Europe/Moscow'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
         "detail": "R4C.settings",
         "documentation": {}
     },
@@ -365,7 +437,7 @@
         "kind": 5,
         "importPath": "R4C.settings",
         "description": "R4C.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
         "detail": "R4C.settings",
         "documentation": {}
     },
@@ -374,7 +446,7 @@
         "kind": 5,
         "importPath": "R4C.settings",
         "description": "R4C.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
         "detail": "R4C.settings",
         "documentation": {}
     },
@@ -383,7 +455,7 @@
         "kind": 5,
         "importPath": "R4C.settings",
         "description": "R4C.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
         "detail": "R4C.settings",
         "documentation": {}
     },
@@ -401,7 +473,7 @@
         "kind": 5,
         "importPath": "R4C.urls",
         "description": "R4C.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', include('robots.urls')),\n    path('admin/', admin.site.urls),\n]",
         "detail": "R4C.urls",
         "documentation": {}
     },
@@ -478,6 +550,15 @@
         "documentation": {}
     },
     {
+        "label": "RobotAdmin",
+        "kind": 6,
+        "importPath": "robots.admin",
+        "description": "robots.admin",
+        "peekOfCode": "class RobotAdmin(admin.ModelAdmin):\n    list_display = (\n        'serial',\n        'model',\n        'version',\n        'created'\n    )\nadmin.site.register(Robot)\nadmin.site.register(Order)\nadmin.site.register(Customer)",
+        "detail": "robots.admin",
+        "documentation": {}
+    },
+    {
         "label": "RobotsConfig",
         "kind": 6,
         "importPath": "robots.apps",
@@ -487,12 +568,39 @@
         "documentation": {}
     },
     {
+        "label": "RobotForm",
+        "kind": 6,
+        "importPath": "robots.forms",
+        "description": "robots.forms",
+        "peekOfCode": "class RobotForm(forms.ModelForm):\n    \"\"\"Форма для создания объекта Robot.\"\"\"\n    class Meta:\n        model = Robot\n        fields = ('model', 'version', 'created')\n    def validate_field(self, value: str):\n        \"\"\"Общая проверка для model и version.\"\"\"\n        return len(value) == 2 and value.isalnum() and value.isupper()\n    def clean(self):\n        \"\"\"Метод для проверки всех данных формы.\"\"\"",
+        "detail": "robots.forms",
+        "documentation": {}
+    },
+    {
         "label": "Robot",
         "kind": 6,
         "importPath": "robots.models",
         "description": "robots.models",
-        "peekOfCode": "class Robot(models.Model):\n    serial = models.CharField(max_length=5, blank=False, null=False)\n    model = models.CharField(max_length=2, blank=False, null=False)\n    version = models.CharField(max_length=2, blank=False, null=False)\n    created = models.DateTimeField(blank=False, null=False)",
+        "peekOfCode": "class Robot(models.Model):\n    serial = models.CharField(max_length=5, blank=False, null=False)\n    model = models.CharField(max_length=2, blank=False, null=False)\n    version = models.CharField(max_length=2, blank=False, null=False)\n    created = models.DateTimeField(blank=False, null=False)\n    class Meta:\n        verbose_name = 'Робот'\n        verbose_name_plural = 'Роботы'\n    def __str__(self):\n        return self.model",
         "detail": "robots.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "robots.urls",
+        "description": "robots.urls",
+        "peekOfCode": "urlpatterns = [\n    path('robot_create/', RobotCreate.as_view(), name='robot_create')\n]",
+        "detail": "robots.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RobotCreate",
+        "kind": 6,
+        "importPath": "robots.views",
+        "description": "robots.views",
+        "peekOfCode": "class RobotCreate(View):\n    \"\"\"Класс для создания объекта модели Robot.\"\"\"\n    def get(self, request):\n        \"\"\"Отображает форму для создания объекта.\"\"\"\n        form = RobotForm()\n        return render(request, 'robot_create.html', {'form': form})\n    def post(self, request):\n        \"\"\"Обрабатывает данные формы.\"\"\"\n        form = RobotForm(request.POST)\n        if form.is_valid():",
+        "detail": "robots.views",
         "documentation": {}
     },
     {
