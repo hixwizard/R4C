@@ -23,7 +23,7 @@ class RobotForm(forms.ModelForm):
         version = cleaned_data.get('version')
         created = cleaned_data.get('created')
         today = dt.today()
-        if created < today:
+        if created <= today:
             raise forms.ValidationError("Дата создания не валидна.")
         for field in [model, version]:
             if field and not self.validate_field(field):
