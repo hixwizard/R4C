@@ -16,7 +16,11 @@ from .models import Robot
 
 
 class RobotCreate(View):
-    """Класс для создания объекта модели Robot."""
+    """
+    Класс для создания объекта модели Robot.
+
+    Отключить или обойти csrf без формы у меня не получилось.
+    """
 
     def get(self, request):
         """Отображает форму для создания объекта."""
@@ -37,18 +41,15 @@ class RobotCreate(View):
                         "created": robot.created
                     },
                     status=201,
-                    json_dumps_params={'ensure_ascii': False}
                 )
             except forms.ValidationError as e:
                 return JsonResponse(
                     {'ошибка': str(e)},
                     status=400,
-                    json_dumps_params={'ensure_ascii': False}
                 )
         return JsonResponse(
             {'ошибка': form.errors},
             status=400,
-            json_dumps_params={'ensure_ascii': False}
         )
 
 
