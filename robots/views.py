@@ -71,7 +71,7 @@ class Report(View):
             writer = csv.writer(temp_file)
             for model, group in groupby(robots, key=attrgetter('model')):
                 writer.writerow([f"Модель: {model}"])
-                writer.writerow(["Версия", "Количество"])
+                writer.writerow(["Версия", "Количество за неделю"])
                 version_counts = Counter(robot.version for robot in group)
                 writer.writerows(version_counts.items())
                 writer.writerow([])
